@@ -1,0 +1,180 @@
+img{
+    display: inline-block;
+    border: 6px double black;
+    border-radius: 50%;
+    background-color: lightpink;
+    object-fit:cover;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    margin: 50px;
+    outline: dashed 10px black;
+    outline-offset: 20px;
+}
+
+#dspImg{
+    object-fit: cover;
+    background: black url(./images/dsplogo.png) no-repeat;
+    background-position: left top;
+    background-size: 100px;
+    outline: none;
+    width:300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 24px ;
+}
+
+#dspPara{
+    display: inline-block;
+    width: 850px;
+    height: 400px;
+    color: black;
+    font-weight: bold;
+    text-decoration: wavy;
+    overflow: auto;
+    background-color: lightcyan;
+    outline: 10px double black;
+    outline-offset:20px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+h1{
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: 9px groove white;
+    border-radius: 20px;
+    border-left-style: dotted;
+    border-right-style: dotted;
+    box-shadow: 10px 10px 10px white;
+    letter-spacing: 10px ;
+    text-shadow: 10px 10px 10px white;
+    /*border: groove ridge dotted dashed;*/
+}
+
+#homeLink{
+    background-color: azure;
+    width: 80px ;
+    font-size: 1.5rem;
+}
+
+#albumLinks{
+    font-size: 1.5rem;
+}
+
+iframe{
+    width: 900px;
+    height: 400px;
+    padding: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border: 6px groove black;
+    border-radius: 20%;
+}
+
+.songDiv{
+    border: none;
+    color: black;
+    width: 1000px;
+    height: 450px;
+    padding: 10px;
+}
+
+div{
+    border: 6px outset white;
+    border-radius: 25px;
+    width: 300px;
+    height: 300px;
+    overflow: auto;
+    display: inline-block;
+    padding: 20px;
+    margin: 40px;
+}
+
+audio{
+    border: 6px groove red;
+    border-radius: 20%;
+}
+
+h2{
+    text-align: center;
+    color: red;
+    font-weight: bolder;
+
+}
+
+#indexBody{
+    background-color: lightblue;
+}
+
+#aryaBody{
+    background-image: url(./images/arya.png), url(./images/background.avif), url(./images/dsplogo.png);
+}
+
+#arya2Body{
+    background-image: url(./images/arya2.png), url(./images/background.avif), url(./images/dsplogo.png);
+}
+
+#NNBody{
+    background-image: url(./images/nuvvasthanante\ nenodhantana.png)
+    , url(./images/background.avif), url(./images/dsplogo.png);
+}
+
+body{
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain , cover, 150px;
+    background-position: right, center, right top;
+}
+
+.audioHeadingDiv{
+    border: 0px;
+}
+
+#dspPara::first-letter{
+    color: blueviolet;
+}
+
+#dspPara::first-line{
+    background-color: pink;
+    color: brown;
+    font-size: 2rem ;
+    font-family: arial;
+}
+
+#dspPara::selection{
+    background-color: deeppink;
+    color: white;
+}
+
+/*h1::after{
+    content:🎼;
+}*/
+
+img:hover{
+    background-color: darkblue;
+}
+
+img:active{
+    background-color: darkred;
+}
+
+#albumLinks a:hover{
+    background-color: deeppink;
+    text-decoration: none;
+}
+
+#albumlinks a:active{
+    background-color: black;
+    color: red;
+}
+
+#albumLinks a:link{
+    color: brown;
+}
+
+#albumLinks a:visited{
+    color:deepskyblue;
+}
